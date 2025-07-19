@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlowUp Serum - اشعري بالنضارة الطبيعية</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav class="container">
+            <a href="#" class="logo">
+                <i class="fas fa-sparkles"></i>
+                GlowUp
+            </a>
+            <ul class="nav-links">
+                <li><a href="" onclick="main()">الرئيسية</a></li>
+                <li><a href="#benefits">مميزات المنتج</a></li>
+                <li><a href="#testimonials">آراء عملائنا</a></li>
+                <li><a href="#pricing" class="cta-button">اطلب الآن</a></li>
+            </ul>
+            <button class="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>اشعري بالنضارة الطبيعية مع GlowUp Serum</h1>
+                    <p>تركيبة طبيعية تمنحك إشراقة لا تقاوم وتحافظ على شباب بشرتك</p>
+                    <a href="#pricing" class="cta-button">
+                        <i class="fas fa-shopping-cart"></i>
+                        جربيه الآن
+                    </a>
+                </div>
+                <div class="hero-image">
+                    <div class="product-placeholder">
+                        <img src="img/serum.jpg" alt="serum image" class="product-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits" id="benefits">
+        <div class="container">
+            <h2 class="section-title fade-in">فوائد GlowUp Serum</h2>
+            <div class="benefits-grid">
+                <div class="benefit-card zoom-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-droplet"></i>
+                    </div>
+                    <h3>يرطب البشرة بعمق</h3>
+                    <p>يوفر ترطيباً عميقاً يدوم طوال اليوم ويحافظ على نعومة البشرة</p>
+                </div>
+                <div class="benefit-card zoom-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-magic"></i>
+                    </div>
+                    <h3>يقلل من التجاعيد</h3>
+                    <p>يحارب علامات الشيخوخة ويقلل من ظهور الخطوط الدقيقة</p>
+                </div>
+                <div class="benefit-card zoom-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>مكونات طبيعية 100%</h3>
+                    <p>تركيبة آمنة من مكونات طبيعية خالية من المواد الكيميائية الضارة</p>
+                </div>
+                <div class="benefit-card zoom-in">
+                    <div class="benefit-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>مناسب لجميع أنواع البشرة</h3>
+                    <p>مصمم ليناسب جميع أنواع البشرة الحساسة والعادية والمختلطة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title fade-in">آراء عملائنا</h2>
+            <div class="testimonials-grid">
+                <div class="testimonial-card slide-right">
+                    <p class="testimonial-text">بشرتي تغيرت تمامًا بعد أول أسبوع من الاستخدام! أصبحت أكثر نضارة وإشراقاً. أنصح كل امرأة بتجربة هذا المنتج الرائع.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">س</div>
+                        <div class="author-info">
+                            <h4>سارة أحمد</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card slide-up">
+                    <p class="testimonial-text">أفضل منتج استخدمته لبشرتي على الإطلاق! النتائج ظهرت سريعاً والسعر معقول جداً. سأطلبه مرة أخرى بكل تأكيد.</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">ن</div>
+                        <div class="author-info">
+                            <h4>ندى محمد</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-stroke fa-flip-horizontal"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card slide-left">
+                    <p class="testimonial-text">تجربتي مع GlowUp كانت مذهلة! لاحظت الفرق من أول استخدام. بشرتي أصبحت أكثر نعومة وترطيباً. أنصح به بقوة!</p>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">م</div>
+                        <div class="author-info">
+                            <h4>مريم علي</h4>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title fade-in">عرض خاص ومحدود</h2>
+            <div class="pricing-card fade-in">
+                <div class="original-price">السعر الأصلي: 249 جنيه</div>
+                <div class="current-price">149 <span class="price-unit">جنيه فقط</span></div>
+                <div class="offer-text">وفري 100 جنيه - خصم 40%</div>
+                
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="days">02</div>
+                        <div class="countdown-label">أيام</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="hours">15</div>
+                        <div class="countdown-label">ساعات</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="minutes">30</div>
+                        <div class="countdown-label">دقائق</div>
+                    </div>
+                    <div class="countdown-item">
+                        <div class="countdown-number" id="seconds">45</div>
+                        <div class="countdown-label">ثواني</div>
+                    </div>
+                </div>
+                
+                <a href="#" class="cta-button" style="font-size: 1.2rem; padding: 1rem 2rem;">
+                    <i class="fas fa-shopping-cart"></i>
+                    اطلبي الآن واستفيدي من العرض
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>GlowUp</h3>
+                    <p>منتجات طبيعية للعناية بالبشرة تمنحك الإشراق والنضارة التي تستحقينها</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>تواصل معنا</h3>
+                    <p><i class="fas fa-phone" style="color: var(--primary-color);"></i> +20 123 456 7890</p>
+                    <p><i class="fas fa-envelope" style="color: var(--primary-color);"></i> info@glowup.com</p>
+                    <p><i class="fas fa-map-marker-alt" style="color: var(--primary-color);"></i> القاهرة، مصر</p>
+                </div>
+                <div class="footer-section">
+                    <h3>روابط مهمة</h3>
+                    <p><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">سياسة الخصوصية</a></p>
+                    <p><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">شروط الاستخدام</a></p>
+                    <p><a href="#" style="color: rgba(255,255,255,0.8); text-decoration: none;">الأسئلة الشائعة</a></p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 جميع الحقوق محفوظة لـ GlowUp</p>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </footer>
+</body>
+</html>
